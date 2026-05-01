@@ -204,6 +204,7 @@ class PedidoProdutoDigital extends Pedido implements IPaymentProcessor, IInvoice
     }
 }
 
+// Implementação dos princípios SOLID concluída.
 // Exemplo de uso:
 const mysqlDb = new MySQLDatabase();
 const orderRepo = new OrderRepository(mysqlDb);
